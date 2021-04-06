@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class Main {
     public static void main (String[] args) throws InterruptedException {
-
+        
         Queue storage = new LinkedList();
 
         ProducerThread producer = new ProducerThread(storage);
@@ -18,6 +18,6 @@ public class Main {
 
         producer.Disable();
         consumer.Disable();
-
+        
     }
 }

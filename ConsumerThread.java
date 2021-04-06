@@ -2,7 +2,7 @@ package practise.threads.ProducerConsumer;
 
 import java.util.Queue;
 
-public class ConsumerThread extends Thread{
+public class ConsumerThread extends Thread {
 
     private Boolean isActive = true;
     private Queue<Integer> storage;
@@ -44,5 +44,5 @@ public class ConsumerThread extends Thread{
 
         System.out.println("Consuming Finished!");
     }
-    
+
 }

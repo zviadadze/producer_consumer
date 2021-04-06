@@ -2,7 +2,7 @@ package practise.threads.ProducerConsumer;
 
 import java.util.Queue;
 
-public class ProducerThread extends Thread{
+public class ProducerThread extends Thread {
 
     private Boolean isActive = true;
     private Queue<Integer> storage;
@@ -44,5 +44,5 @@ public class ProducerThread extends Thread{
 
         System.out.println("Producing Finished!");
     }
-    
+
 }
